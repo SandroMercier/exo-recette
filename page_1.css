@@ -1,0 +1,138 @@
+    *{overflow: auto;}
+    body{
+        font-family: Arial;
+        background-color: #8ba1bb;}
+
+    div.contenu{
+        background-color: white;
+        margin: 40px 8px 40px 8px ;
+        padding:0px 8px 20px 8px;
+        /*min-width: 350px;*/
+        box-shadow: 0px 0px 8px 8px
+        rgb(0,0,0, 0.5) ;
+        overflow: visible;}
+
+    h1{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;}
+
+    p.description{
+        font-size: 14px;
+        text-align: center;
+        max-width: 400px;
+        display: inline-block;}
+
+    p.categorie{
+        font-size: 16px;
+        font-weight: bold;
+        background-color: black;
+        color: white;
+        margin-left: 0px;
+        margin-top: -20px;
+        display: inline-block;
+        padding: 8px 18px;
+        margin-bottom: 0px;}
+
+    .centre{
+        text-align: center;
+        width: 100%;}
+    div.categorie{
+        margin-bottom: 0px;
+        margin-top: 0px;
+        overflow: visible;}
+
+
+    div.separateur{
+        width: 100px; 
+        height:1px;
+        background-color: black;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;}
+
+    div.info{position: relative;}
+
+    table.info{
+        position: absolute;
+        bottom:0px;
+        width: 100%;
+        color: white;
+        background-color: #6d829dc0;
+        height: 50px;}
+
+    table.info td{
+        text-align: center;
+        font-size:10px; 
+        vertical-align: top;}
+
+    table.info th{
+        text-align: center;
+        font-size: 12px; 
+        vertical-align:bottom;
+        padding-bottom: 8px;}
+
+    img.info{
+        background-color: lightgrey;
+        min-height: 250px;
+        object-fit: cover;
+        display: block;
+        max-height: 350px;}
+
+    div.colonne_1{display:block; font-size: 14px;}
+
+    div.border p{text-align: center;border: 1px solid #808080 ; padding:10px; margin:5px; font-size: 14px;}
+
+    div.colonne_2{font-size: 13px;}
+
+    div.colonne{width:100%}
+
+    div.colonne h2{text-align: center; text-transform: uppercase;font-size: 15px; border-bottom: 5px solid #0472f8;}
+    
+    table.preparation p.numero{
+        text-align: center;
+        background-color: #8ba1bb;
+        color: white;
+        height: 25px; 
+        width: 25px;
+        border-radius: 50%;
+        font-weight: bold;
+        padding-top: 5px;
+        box-sizing: border-box;
+        margin: 0px;}
+    
+    table.preparation td{
+        padding-bottom: 10px;
+        vertical-align: top;
+       }
+
+    table.preparation td.etape{
+        padding-left: 10px;
+        padding-bottom: 10px;
+        font-size: 14px;}
+
+
+
+
+
+
+
+    /* Style pour ordi */
+    @media only screen and (min-width: 768px){ div.contenu{
+        min-width: 350px;
+        margin: 80px 10% 80px 10% ;
+        padding:0px 30px 30px 30px;} }
+    
+    @media only screen and (min-width: 768px){ 
+        table.info{height: 80px;}
+        table.info td{font-size:14px;}
+        table.info th{font-size: 16px;}
+        }
+    @media only screen and (min-width: 768px){div.colonne_1{display:inline-block; margin-right: 10%; font-size: 13px;}}
+
+    @media only screen and (min-width: 768px){div.colonne_2{float: right;font-size: 13px;}}
+    @media only screen and (min-width: 768px){div.colonne{width: 45%;}}
+    @media only screen and (min-width: 900px){ div.contenu{
+        width: 650px;
+        margin-left: auto ;
+        margin-right: auto;}}
